@@ -1,0 +1,633 @@
+<html>
+<head>
+<title>Docs For Class C39Object</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">com-tecnick-tcpdf</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                              		  [ <a href="../classtrees_com-tecnick-tcpdf.html" class="menu">class tree: com-tecnick-tcpdf</a> ]
+		  [ <a href="../elementindex_com-tecnick-tcpdf.html" class="menu">index: com-tecnick-tcpdf</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_com-tecnick-tcpdf.html">com-tecnick-tcpdf</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../com-tecnick-tcpdf/_barcode---c39object.php.html">		BarcodeObject
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_barcode---c128aobject.php.html">		BarcodeObject
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_barcode---i25object.php.html">		BarcodeObject
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_barcode---c128bobject.php.html">		BarcodeObject
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_barcode---c128cobject.php.html">		BarcodeObject
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_barcode---image.php.html">		BarcodeObject
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_barcode---barcode.php.html">		BarcodeObject
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_tcpdf.php.html">		TCPDF
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_config---tcpdf_config.php.html">		tcpdf_config.php
+		</a><br>
+			<a href="../com-tecnick-tcpdf/_unicode_data.php.html">		unicode_data.php
+		</a><br>
+	  </div><br />
+
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../com-tecnick-tcpdf/BarcodeObject.html">BarcodeObject</a><br />
+	    		<a href="../com-tecnick-tcpdf/C39Object.html">C39Object</a><br />
+	    		<a href="../com-tecnick-tcpdf/C128AObject.html">C128AObject</a><br />
+	    		<a href="../com-tecnick-tcpdf/C128BObject.html">C128BObject</a><br />
+	    		<a href="../com-tecnick-tcpdf/C128CObject.html">C128CObject</a><br />
+	    		<a href="../com-tecnick-tcpdf/I25Object.html">I25Object</a><br />
+	    		<a href="../com-tecnick-tcpdf/TCPDF.html">TCPDF</a><br />
+	  </div>
+
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: C39Object</h1>
+Source Location: /barcode/c39object.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre><a href="../com-tecnick-tcpdf/BarcodeObject.html">BarcodeObject</a>
+   |
+   --C39Object</pre><br />
+<div class="description">Code 39 Barcode Render Class.<br />  Code 39 is an alphanumeric bar code that can encode decimal number, case alphabet and some special symbols.</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+          <li>Karim Mribti, Nicola Asuni</li>
+                              </ul>
+
+
+
+
+        
+                
+<h4>Version:</h4>
+<ul>
+  <li>0.0.8a  2001-04-01 (original code)</li>
+</ul>
+
+        
+</td>
+
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../com-tecnick-tcpdf/C39Object.html#method__construct">__construct</a></li>
+    <li><a href="../com-tecnick-tcpdf/C39Object.html#methodDrawObject">DrawObject</a></li>
+    <li><a href="../com-tecnick-tcpdf/C39Object.html#methodDrawStart">DrawStart</a></li>
+    <li><a href="../com-tecnick-tcpdf/C39Object.html#methodDrawStop">DrawStop</a></li>
+    <li><a href="../com-tecnick-tcpdf/C39Object.html#methodGetCharIndex">GetCharIndex</a></li>
+    <li><a href="../com-tecnick-tcpdf/C39Object.html#methodGetSize">GetSize</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+<td valign="top">
+<h3>Inherited Variables</h3>
+<div class="tags">
+<h4>Class: <a href="../com-tecnick-tcpdf/BarcodeObject.html">BarcodeObject</a></h4>
+<dl>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mBgcolor">BarcodeObject::$mBgcolor</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mBrush">BarcodeObject::$mBrush</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mChars">BarcodeObject::$mChars</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mCharSet">BarcodeObject::$mCharSet</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mError">BarcodeObject::$mError</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mFont">BarcodeObject::$mFont</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mHeight">BarcodeObject::$mHeight</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mImg">BarcodeObject::$mImg</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mStyle">BarcodeObject::$mStyle</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../com-tecnick-tcpdf/BarcodeObject.html#var$mWidth">BarcodeObject::$mWidth</a>
+  </dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Methods</h3>
+<div class="tags">
+<h4>Class: <a href="../com-tecnick-tcpdf/BarcodeObject.html">BarcodeObject</a></h4>
+<dl>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#method__construct">BarcodeObject::__construct()</a>
+  </dt>
+  <dd>
+    Class Constructor.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodDestroyObject">BarcodeObject::DestroyObject()</a>
+  </dt>
+  <dd>
+    Destroy the barcode image.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodDrawBorder">BarcodeObject::DrawBorder()</a>
+  </dt>
+  <dd>
+    Draws the barcode border.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodDrawChar">BarcodeObject::DrawChar()</a>
+  </dt>
+  <dd>
+    Draws the alphanumeric code.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodDrawObject">BarcodeObject::DrawObject()</a>
+  </dt>
+  <dd>
+    Abstract method used to draw the barcode image.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodDrawSingleBar">BarcodeObject::DrawSingleBar()</a>
+  </dt>
+  <dd>
+    Draws a single barcode bar.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodDrawText">BarcodeObject::DrawText()</a>
+  </dt>
+  <dd>
+    Draws a character string.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodFlushObject">BarcodeObject::FlushObject()</a>
+  </dt>
+  <dd>
+    Flush the barcode image.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodGetError">BarcodeObject::GetError()</a>
+  </dt>
+  <dd>
+    Returns the current error message.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodGetFontHeight">BarcodeObject::GetFontHeight()</a>
+  </dt>
+  <dd>
+    Returns the font height.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodGetFontWidth">BarcodeObject::GetFontWidth()</a>
+  </dt>
+  <dd>
+    Returns the font width.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodgetImage">BarcodeObject::getImage()</a>
+  </dt>
+  <dd>
+    Returns the image object.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodGetStyle">BarcodeObject::GetStyle()</a>
+  </dt>
+  <dd>
+    Returns barcode style.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodSetFont">BarcodeObject::SetFont()</a>
+  </dt>
+  <dd>
+    Set font type.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodSetStyle">BarcodeObject::SetStyle()</a>
+  </dt>
+  <dd>
+    Set barcode style.
+  </dd>
+    <dt>
+    <a href="../com-tecnick-tcpdf/BarcodeObject.html#method__destructor">BarcodeObject::__destructor()</a>
+  </dt>
+  <dd>
+    Class Destructor.
+  </dd>
+  </dl>
+</div>
+</td>
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 49]<br />
+Code 39 Barcode Render Class.<br />  Code 39 is an alphanumeric bar code that can encode decimal number, case alphabet and some special symbols.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>Karim Mribti, Nicola Asuni</td>
+  </tr>
+  <tr>
+    <td><b>version:</b>&nbsp;&nbsp;</td><td>0.0.8a  2001-04-01 (original code)</td>
+  </tr>
+  <tr>
+    <td><b>since:</b>&nbsp;&nbsp;</td><td>2001-03-25</td>
+  </tr>
+  <tr>
+    <td><b>name:</b>&nbsp;&nbsp;</td><td>BarcodeObject</td>
+  </tr>
+  <tr>
+    <td><b>license:</b>&nbsp;&nbsp;</td><td><a href="http://www.gnu.org/copyleft/lesser.html">LGPL</a></td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="method__construct"></a>
+	<h3>constructor __construct <span class="smalllinenumber">[line 58]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>C39Object __construct(
+int
+$Width, int
+$Height, int
+$Style, int
+$Value)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Class Constructor.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	Overrides <a href="../com-tecnick-tcpdf/BarcodeObject.html#method__construct">BarcodeObject::__construct()</a> (Class Constructor.)<br /><br />
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$Width</b>&nbsp;&nbsp;</td>
+        <td>Image width in pixels.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$Height</b>&nbsp;&nbsp;</td>
+        <td>Image height in pixels.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$Style</b>&nbsp;&nbsp;</td>
+        <td>Barcode style.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$Value</b>&nbsp;&nbsp;</td>
+        <td>value to print on barcode.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodDrawObject"></a>
+	<h3>method DrawObject <span class="smalllinenumber">[line 221]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>bool DrawObject(
+int
+$xres)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Draws the barcode object.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>true in case of success.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	Overrides <a href="../com-tecnick-tcpdf/BarcodeObject.html#methodDrawObject">BarcodeObject::DrawObject()</a> (Abstract method used to draw the barcode image.)<br /><br />
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$xres</b>&nbsp;&nbsp;</td>
+        <td>Horizontal resolution.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodDrawStart"></a>
+	<h3>method DrawStart <span class="smalllinenumber">[line 164]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>int DrawStart(
+int
+$DrawPos, int
+$yPos, int
+$ySize, int
+$xres)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Draws the start code.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>drawing position.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$DrawPos</b>&nbsp;&nbsp;</td>
+        <td>Drawing position.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$yPos</b>&nbsp;&nbsp;</td>
+        <td>Vertical position.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$ySize</b>&nbsp;&nbsp;</td>
+        <td>Vertical size.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$xres</b>&nbsp;&nbsp;</td>
+        <td>Horizontal resolution.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodDrawStop"></a>
+	<h3>method DrawStop <span class="smalllinenumber">[line 195]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>int DrawStop(
+int
+$DrawPos, int
+$yPos, int
+$ySize, int
+$xres)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Draws the stop code.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>drawing position.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$DrawPos</b>&nbsp;&nbsp;</td>
+        <td>Drawing position.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$yPos</b>&nbsp;&nbsp;</td>
+        <td>Vertical position.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$ySize</b>&nbsp;&nbsp;</td>
+        <td>Vertical size.</td>
+      </tr>
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$xres</b>&nbsp;&nbsp;</td>
+        <td>Horizontal resolution.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodGetCharIndex"></a>
+	<h3>method GetCharIndex <span class="smalllinenumber">[line 116]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>int GetCharIndex(
+char
+$char)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the character index.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>character index or -1 in case of error.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">char&nbsp;&nbsp;</td>
+        <td><b>$char</b>&nbsp;&nbsp;</td>
+        <td>character.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodGetSize"></a>
+	<h3>method GetSize <span class="smalllinenumber">[line 131]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>barcode GetSize(
+int
+$xres)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns barcode size.<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>size.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">int&nbsp;&nbsp;</td>
+        <td><b>$xres</b>&nbsp;&nbsp;</td>
+        <td>Horizontal resolution.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Wed, 21 May 2008 11:59:41 +0200 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.0</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
